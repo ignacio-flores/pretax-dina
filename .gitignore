@@ -1,0 +1,9 @@
+# Example: keep Dropbox inputs and generated intermediate files out of Git.
+# Replace these paths with the folders your region uses, then uncomment them.
+#/example-region/inputs/
+#/example-region/intermediate/
+
+# Keep passwords, API keys, and other secrets out of Git.
+# Store any local document containing secrets in your region's confidential/ folder.
+**/confidential/**
+!**/confidential/.gitkeep
